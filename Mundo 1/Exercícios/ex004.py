@@ -1,0 +1,5 @@
+n = input('Type anything: ')
+print('The primitive type of this value is: {}'.format(type(n)))
+print("Is it alphanumeric?", n.isalnum())
+print('Is formed by letters? {}'.format(n.isalpha()))
+print('Esta na tabela ascii:', n.isascii())

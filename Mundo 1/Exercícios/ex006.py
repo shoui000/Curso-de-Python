@@ -1,0 +1,5 @@
+um = int(input('Digite um valor: '))
+print('O valor: {}'.format(um))
+print('O dobro do mesmo: {}'.format(um*2))
+print('O triplo: {}'.format(um*3))
+print('Raiz quadrada: {}'.format(um**(1/2)))
