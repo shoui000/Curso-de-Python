@@ -1,5 +1,5 @@
-from datetime import date
 def voto(a):
+    from datetime import date
     idade = date.today().year - a
     if idade >= 16 and idade < 18 or idade >= 60:
         return 'Opcional'

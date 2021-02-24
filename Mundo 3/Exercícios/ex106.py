@@ -9,7 +9,7 @@ while True:
     escre('Sistema de Ajuda PyHelp')
     a = input('Função ou Biblioteca >>> ')
     if a == 'fim':
-        escre('TABOM ENTÃO SEU MERDA')
+        escre('TABOM ENTÃO')
         break
     escre(f'Acessando o manual do comando "{a}"')
     sleep(0.3)
